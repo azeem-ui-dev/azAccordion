@@ -1,5 +1,9 @@
-
-
+/*!
+ * azAccordion - v1.0.0 - 2013-08-02
+ * https://github.com/azeem-ui-dev/azAccordion/
+ * Copyright (c) 2013 Mohammed Azeemulla
+ * Licensed MIT (https://raw.github.com/azeem-ui-dev/azAccordion/master/license.txt)
+ */
 
 /* Utility */
 if ( typeof Object.create !== 'function' ) {
