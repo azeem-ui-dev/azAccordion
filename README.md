@@ -1,4 +1,7 @@
 azAccordion
 ===========
 
-A simple jQuery accordion plugin.
+A jQuery accordion plugin.
+
+
+
