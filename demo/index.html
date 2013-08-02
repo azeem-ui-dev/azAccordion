@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>azAccordion - jQuery accordion plugin</title>
+<link rel="stylesheet" type="text/css" href="styles.css" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="../jquery.azAccordion.js"></script>
+<script type="text/javascript">
+$(function(){
+    $('#dl').azAccordion({initState: 'openAll'});
+    $('#ul').azAccordion({initState: 'openOne', activePanel: 2, behaviour: 'collapseOthers'});
+    $('#div').azAccordion({initState: 'closeAll', showHideIcon: 'yes', speed: 800});
+});
+</script>
+</head>
+
+<body>
+
+<h3> Example 1</h3>
+<p><strong>Config code:</strong> $('#acc1').azAccordion({initState: 'openAll'});</p>
+<dl id="dl">
+    <dt><a href="#">This is the first title</a></dt>
+    <dd><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p></dd>
+    <dt><a href="#">Second title</a></dt>
+    <dd><p>Consectetur adipisicing elit</p></dd>
+    <dt><a href="#">Title 3 goes here</a></dt>
+    <dd><p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></dd>
+    <dt><a href="#">4th title</a></dt>
+    <dd><p>Content for fourth title goes in here</p></dd>
+</dl>
+
+<h3> Example 2 </h3>
+<p><strong>Config code:</strong> $('#acc2').azAccordion({initState: 'openOne', activePanel: 2, behaviour: 'collapseOthers'});</p>
+<ul id="ul">
+    <li><a href="#">This is the first title</a></li>
+    <li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p></li>
+    <li><a href="#">Second title</a></li>
+    <li><p>Consectetur adipisicing elit</p></li>
+    <li><a href="#">Title 3 goes here</a></li>
+    <li><p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></li>
+    <li><a href="#">4th title</a></li>
+    <li><p>Content for fourth title goes in here</p></li>
+</ul>
+
+<h3> Example 3 </h3>
+<p><strong>Config code:</strong> $('#acc3').azAccordion({initState: 'closeAll', showHideIcon: 'yes', speed: 800});</p>
+<div id="div">
+    <div><a href="#">This is the first title</a></div>
+    <div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p></div>
+    <div><a href="#">Second title</a></div>
+    <div><p>Consectetur adipisicing elit</p></div>
+    <div><a href="#">Title 3 goes here</a></div>
+    <div><p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+    <div><a href="#">4th title</a></div>
+    <div><p>Content for fourth title goes in here</p></div>
+</div>
+
+</body>
+</html>
