@@ -43,7 +43,7 @@ azAccordion is a jQuery plugin to build an accordion. View [ DEMO ](http://htmlp
     <script type="text/javascript">
        $(function(){
          $('#dl').azAccordion();
-         $('#div').azAccordion({initState: 'closeAll', showHideIcon: 'yes', speed: 800});
+         $('#div').azAccordion({initState: 'openOne', activePanel: 2, behaviour: 'collapseOthers', showHideIcon: 'yes', speed: 800});
        });
     </script>	
 	```
