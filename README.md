@@ -1,6 +1,6 @@
 # azAccordion #
 
-azAccordion is a jQuery plugin to build an accordion.
+azAccordion is a jQuery plugin to build an accordion. View [ DEMO ](http://htmlpreview.github.io/?https://github.com/azeem-ui-dev/azAccordion/blob/master/demo/index.html).
 
 ### Features ###
 
