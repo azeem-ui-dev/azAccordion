@@ -1,0 +1,56 @@
+.azAccordion  {
+    width: 300px;
+    border: 1px solid #006699;
+    margin: 0 0 50px 0;
+    padding: 0;
+    list-style: none;
+}
+div.azAccordion {
+    border: 0;
+}
+.acc_title {
+    padding: 10px;
+    background-color: #8ABDF0;    
+    cursor: pointer;
+    border-bottom: 1px solid #006699;
+}
+.acc_title a {
+	color: #000;
+	text-decoration: none;
+}
+.acc_image {
+    display: block;
+    float: left;
+    height: 14px;
+    width: 14px;
+    background: url(https://lh4.googleusercontent.com/-B5V9aB1BQMg/UelhRkMw30I/AAAAAAAABQE/znOkX6PwDuc/s14/accordion-plus.gif) no-repeat;
+    margin: 3px 10px 0 0;
+}
+.acc_active {
+    background-color: #0057BD;
+}
+.acc_active a {
+	color: #fff;
+	text-decoration: none;
+}
+.acc_active .acc_image {
+    background: url(https://lh4.googleusercontent.com/-SAWDjEeXVOI/UelhNmiwu7I/AAAAAAAABP8/Vn9uQSU_Afg/s14/accordion-minus.gif) no-repeat;
+}
+.acc_hover {
+    background-color: #33ccf0;
+    color: #000;
+}
+.acc_title:nth-last-child(2) {
+    border-bottom: 0;
+}
+.acc_desc {
+    margin: 0;
+}
+.acc_desc p {
+    margin: 10px;
+}
+.acc_item {
+    margin-bottom: 5px;
+    border: 1px solid #006699;  
+}
+
