@@ -1,6 +1,6 @@
 # azAccordion #
 
-azAccordion is a jQuery plugin to build an accordion. View [ DEMO ](http://htmlpreview.github.io/?https://github.com/azeem-ui-dev/azAccordion/blob/master/demo/index.html).
+azAccordion is a jQuery plugin to build an accordion. View [ DEMO ](https://cdn.rawgit.com/azeem-ui-dev/azAccordion/master/index.html).
 
 ### Features ###
 
@@ -29,7 +29,7 @@ azAccordion is a jQuery plugin to build an accordion. View [ DEMO ](http://htmlp
    
 ### Usage ###
 
-1. Structure your accordion with either lists or divs as shown in demo HTML file.
+1. Structure your accordion with either lists or divs as shown in index.html file.
 
 2. Include jquery.min.js, jquery.azAccordion.js and azAccordion_styles.css
    ```
